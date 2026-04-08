@@ -22,7 +22,7 @@ The game logic follows a structured loop that guides the player towards the corr
 - **Replayability**: After a successful guess, the player can choose to start a new game or exit.
 
 ### 🔐 Security Features
-- **Secret Key Access**: The application is locked behind a secret key pattern (`SY_2026_GUESS`). Only authorized users with the key can execute the game.
+- **Secret Key Access**: The application is locked behind a secret key pattern (`Siyamkhize_2026_GUESS`). Only authorized users with the key can execute the game.
 - **Obfuscated Backend**: Core arithmetic and game logic functions are stored in a hidden, obfuscated module ([_secret_backend.py](file:///c:/projects/synent-task2-guessing-game-assistant/_secret_backend.py)) to prevent unauthorized reverse-engineering.
 - **Ownership Protection**: All source files contain strict ownership and license headers.
 - **Dynamic Logic Loading**: Backend functions are decoded and loaded into memory at runtime from a secure source.

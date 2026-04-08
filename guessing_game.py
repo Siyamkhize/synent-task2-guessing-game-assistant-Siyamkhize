@@ -11,7 +11,7 @@ import sys
 import os
 
 # Secure Secret Key Access (Can be moved to an environment variable in production)
-SECRET_KEY = "SY_2026_GUESS"
+SECRET_KEY = "Siyamkhize_2026_GUESS"
 
 def authenticate():
     """Prompts the user for a secret key to unlock the application."""
