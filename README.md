@@ -1,5 +1,9 @@
 # Task 2: Number Guessing Game (CLI)
 
+---
+© 2026 Siyabonga Mkhize. All Rights Reserved.
+---
+
 ## Developer: Siyabonga Mkhize
 ## Repository: synent-task2-guessing-game-assistant-Siyamkhize
 
@@ -17,12 +21,14 @@ The game logic follows a structured loop that guides the player towards the corr
 - **Input Sanitization**: Handles non-numeric inputs and provides an option to quit ('q') at any point.
 - **Replayability**: After a successful guess, the player can choose to start a new game or exit.
 
-### ✨ Features
-- [x] Random secret number generation (1-100)
-- [x] Dynamic feedback (Hints: Too High / Too Low)
-- [x] Attempt tracking and counting
-- [x] Input validation for numerical entries
-- [x] Quitting and Replaying functionality
+### 🔐 Security Features
+- **Secret Key Access**: The application is locked behind a secret key pattern (`SY_2026_GUESS`). Only authorized users with the key can execute the game.
+- **Obfuscated Backend**: Core arithmetic and game logic functions are stored in a hidden, obfuscated module ([_secret_backend.py](file:///c:/projects/synent-task2-guessing-game-assistant/_secret_backend.py)) to prevent unauthorized reverse-engineering.
+- **Ownership Protection**: All source files contain strict ownership and license headers.
+- **Dynamic Logic Loading**: Backend functions are decoded and loaded into memory at runtime from a secure source.
+
+### ⚙️ CI/CD Pipeline
+- **GitHub Actions**: Automated workflow for linting, security scanning (Bandit), and basic logic verification on every push and pull request to the `master` branch.
 
 ### 🕹️ How to Play
 1. Navigate to the game folder in your terminal.
