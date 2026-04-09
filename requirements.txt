@@ -1,2 +1,3 @@
-# No external dependencies required (uses Python Standard Library)\n
+# External dependencies
+Flask==3.0.0
 #Siyamkhize_2026_GUESS

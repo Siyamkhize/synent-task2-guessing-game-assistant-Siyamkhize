@@ -8,9 +8,19 @@
 ## Repository: synent-task2-guessing-game-assistant-Siyamkhize
 
 ### 🎮 Project Description
-This is an interactive command-line guessing game developed in Python. The application generates a secret random number between 1 and 100, and the player is tasked with guessing it in as few attempts as possible.
+This is an interactive command-line and **web-based** guessing game developed in Python. The application generates a secret random number between 1 and 100, and the player is tasked with guessing it in as few attempts as possible.
 
-### 🧠 Logic & Flow
+### 🕹️ Clickable Demo
+To run the demo and open the game in your browser automatically:
+1. Ensure you have Flask installed: `pip install flask`
+2. Run the following command:
+   ```bash
+   python run_demo.py
+   ```
+3. **Open Game in Browser**: [http://127.0.0.1:5001](http://127.0.0.1:5001)
+   - No secret key required for the demo version!
+
+### 🔐 Security Features🧠 Logic & Flow
 The game logic follows a structured loop that guides the player towards the correct answer:
 - **Random Generation**: Utilizes Python's `random` module to pick a secret number between 1 and 100 inclusive.
 - **Attempt Tracking**: Increments a counter for each valid guess made by the player.
